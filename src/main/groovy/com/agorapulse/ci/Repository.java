@@ -1,5 +1,6 @@
 package com.agorapulse.ci;
 
+import java.util.Objects;
 import java.util.Optional;
 
 public class Repository {
@@ -26,5 +27,24 @@ public class Repository {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "Repository{owner='" + owner + "', name='" + name + "'}";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Repository that = (Repository) o;
+        return Objects.equals(owner, that.owner) &&
+                Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(owner, name);
     }
 }

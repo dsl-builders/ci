@@ -1,0 +1,12 @@
+GITHUB_WORKFLOW: Java CI
+GITHUB_BASE_REF:
+GITHUB_WORKSPACE: /home/runner/work/ci/ci
+GITHUB_EVENT_NAME: push
+GITHUB_ACTIONS: true
+GITHUB_EVENT_PATH: /home/runner/work/_temp/_github_workflow/event.json
+GITHUB_ACTION: run
+GITHUB_ACTOR: musketyr
+GITHUB_REF: refs/heads/master
+GITHUB_REPOSITORY: agorapulse/ci
+GITHUB_SHA: 8eee24aac46ace5cd156d351062dfce68e57e49e
+GITHUB_HEAD_REF:
