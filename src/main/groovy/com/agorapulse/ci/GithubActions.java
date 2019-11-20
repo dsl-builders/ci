@@ -18,7 +18,6 @@ public enum GithubActions implements CI {
 
     @Override
     public Optional<String> getBuildNumber() {
-        // TODO: is there anything close to this?
         return Optional.empty();
     }
 
