@@ -40,14 +40,20 @@ dependencies {
 }
 
 task printEnvs() {
-    System.getenv().each {
-        if (!it.key.contains('TOKEN') && !it.key.contains('KEY') && !it.key.contains('PASSWORD')) {
-            println "${it.key.padRight(30)}: $it.value"
+    doLast {
+        final List<String> SKIP_WORDS = ['TOKEN', 'KEY', 'PASSWORD', 'SECRET']
+
+        System.getenv().each {
+            if (SKIP_WORDS.every { word -> !it.key.contains(word) }) {
+                println "${it.key.padRight(30)}: $it.value"
+            }
+        }
+
+        if (System.getenv('GITHUB_EVENT_PATH')) {
+            println 'github event:'
+            println new File(System.getenv('GITHUB_EVENT_PATH')).text
         }
     }
-
-    if (System.getenv('GITHUB_EVENT_PATH')) {
-        println 'github event:'
-        println new File(System.getenv('GITHUB_EVENT_PATH')).text
-    }
 }
+
+build.dependsOn printEnvs
