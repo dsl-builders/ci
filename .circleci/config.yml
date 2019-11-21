@@ -18,7 +18,7 @@ jobs:
 
     filters:
       tags:
-        only: /*/
+        only: /.*/
 
     environment:
       # Customize the JVM maximum heap limit
