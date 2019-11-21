@@ -1,0 +1,52 @@
+TRAVIS_TAG:
+TRAVIS_ROOT: /
+TRAVIS_PRE_CHEF_BOOTSTRAP_TIME: 2019-08-11T13:04:20
+TRAVIS_APT_PROXY: http://apt.cache.travis-ci.com
+TRAVIS_ALLOW_FAILURE: false
+TRAVIS_OS_NAME: linux
+TRAVIS_COMMIT_MESSAGE: Merge fa8268e215690be8b7d0b9e82d08b9045eebcff8 into 807d24b230d3f33832a7c472b84150a0299e6365
+TRAVIS_EVENT_TYPE: pull_request
+TRAVIS_OSX_IMAGE:
+TRAVIS_SECURE_ENV_VARS: false
+TRAVIS_INTERNAL_RUBY_REGEX: ^ruby-(2\.[0-4]\.[0-9]|1\.9\.3)
+rvm_path: /home/travis/.rvm
+TRAVIS_DIST: xenial
+TRAVIS_TIMER_START_TIME: 1574337891604521353
+TRAVIS_ENABLE_INFRA_DETECTION: true
+TRAVIS_JOB_NUMBER: 4.1
+TRAVIS_INIT: systemd
+TRAVIS_UID: 2000
+TRAVIS_LANGUAGE: java
+TRAVIS_BRANCH: master
+TRAVIS: true
+TRAVIS_STACK_NAME: sardonyx
+TRAVIS_STACK_JOB_BOARD_REGISTER: /.job-board-register.yml
+TRAVIS_COMMIT_RANGE: 807d24b230d3f33832a7c472b84150a0299e6365...fa8268e215690be8b7d0b9e82d08b9045eebcff8
+TRAVIS_STACK_TIMESTAMP: 2019-08-11 13:04:32 UTC
+TRAVIS_PULL_REQUEST_SHA: fa8268e215690be8b7d0b9e82d08b9045eebcff8
+TRAVIS_COMMIT: 48ab56ffe192ae82d4a3a73a43ff82aa916c6f2a
+TRAVIS_REPO_SLUG: agorapulse/ci
+TRAVIS_BUILD_STAGE_NAME:
+TRAVIS_HOME: /home/travis
+TRAVIS_ARCH: amd64
+TRAVIS_JOB_ID: 615019069
+TRAVIS_PULL_REQUEST_BRANCH: pr-test-04
+TRAVIS_SUDO: true
+TRAVIS_JDK_VERSION: openjdk8
+TRAVIS_BUILD_WEB_URL: https://travis-ci.org/agorapulse/ci/builds/615019068
+TRAVIS_STACK_FEATURES: basic couchdb disabled-ipv6 docker docker-compose elasticsearch firefox go-toolchain google-chrome jdk memcached mongodb mysql nodejs_interpreter perl_interpreter perlbrew phantomjs postgresql python_interpreter redis ruby_interpreter sqlite xserver
+TRAVIS_TIMER_ID: 03ad5389
+TRAVIS_CMD: ./gradlew build
+TRAVIS_CPU_ARCH: amd64
+TRAVIS_TMPDIR: /tmp/tmp.uhlAQhFVFn
+TRAVIS_STACK_NODE_ATTRIBUTES: /.node-attributes.yml
+TRAVIS_BUILD_NUMBER: 4
+TRAVIS_INFRA: unknown
+TRAVIS_STACK_LANGUAGES: __sardonyx__ c c++ clojure cplusplus cpp default generic go groovy java node_js php pure_java python ruby scala
+TRAVIS_JOB_NAME:
+TRAVIS_BUILD_ID: 615019068
+TRAVIS_PULL_REQUEST: 6
+TRAVIS_PULL_REQUEST_SLUG: musketyr/ci
+TRAVIS_BUILD_DIR: /home/travis/build/agorapulse/ci
+TRAVIS_APP_HOST: build.travis-ci.org
+TRAVIS_JOB_WEB_URL: https://travis-ci.org/agorapulse/ci/jobs/615019069

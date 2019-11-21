@@ -13,13 +13,13 @@ public interface CI {
     Optional<String> getBranch();
     Optional<String> getTag();
 
-    default <T extends CI> void is(Class<T> type, Consumer<T> code) {
+    default <T extends CI> void when(Class<T> type, Consumer<T> code) {
         if (type.isInstance(this)) {
             code.accept(type.cast(this));
         }
     }
 
-    default <T extends CI, R> Optional<R> is(Class<T> type, Function<T, R> code) {
+    default <T extends CI, R> Optional<R> when(Class<T> type, Function<T, R> code) {
         if (type.isInstance(this)) {
             return Optional.ofNullable(code.apply(type.cast(this)));
         }

@@ -1,0 +1,52 @@
+TRAVIS_TAG: test-03
+TRAVIS_ROOT: /
+TRAVIS_PRE_CHEF_BOOTSTRAP_TIME: 2019-08-11T13:04:20
+TRAVIS_APT_PROXY: http://apt.cache.travis-ci.com
+TRAVIS_ALLOW_FAILURE: false
+TRAVIS_OS_NAME: linux
+TRAVIS_COMMIT_MESSAGE: added travis configuration file, fixed print env task
+TRAVIS_EVENT_TYPE: push
+TRAVIS_OSX_IMAGE:
+TRAVIS_SECURE_ENV_VARS: false
+TRAVIS_INTERNAL_RUBY_REGEX: ^ruby-(2\.[0-4]\.[0-9]|1\.9\.3)
+TRAVIS_TEST_RESULT:
+TRAVIS_DIST: xenial
+TRAVIS_TIMER_START_TIME: 1574338976500162964
+TRAVIS_ENABLE_INFRA_DETECTION: true
+TRAVIS_JOB_NUMBER: 5.1
+TRAVIS_INIT: systemd
+TRAVIS_UID: 2000
+TRAVIS_LANGUAGE: java
+TRAVIS_BRANCH: test-03
+TRAVIS: true
+TRAVIS_STACK_NAME: sardonyx
+TRAVIS_STACK_JOB_BOARD_REGISTER: /.job-board-register.yml
+TRAVIS_STACK_TIMESTAMP: 2019-08-11 13:04:32 UTC
+TRAVIS_COMMIT_RANGE:
+TRAVIS_PULL_REQUEST_SHA:
+TRAVIS_COMMIT: 807d24b230d3f33832a7c472b84150a0299e6365
+TRAVIS_REPO_SLUG: agorapulse/ci
+TRAVIS_BUILD_STAGE_NAME:
+TRAVIS_HOME: /home/travis
+TRAVIS_ARCH: amd64
+TRAVIS_JOB_ID: 615025163
+TRAVIS_PULL_REQUEST_BRANCH:
+TRAVIS_SUDO: true
+TRAVIS_JDK_VERSION: openjdk8
+TRAVIS_BUILD_WEB_URL: https://travis-ci.org/agorapulse/ci/builds/615025162
+TRAVIS_STACK_FEATURES: basic couchdb disabled-ipv6 docker docker-compose elasticsearch firefox go-toolchain google-chrome jdk memcached mongodb mysql nodejs_interpreter perl_interpreter perlbrew phantomjs postgresql python_interpreter redis ruby_interpreter sqlite xserver
+TRAVIS_TIMER_ID: 16ac25ba
+TRAVIS_CMD: ./gradlew build
+TRAVIS_CPU_ARCH: amd64
+TRAVIS_TMPDIR: /tmp/tmp.AmQfLNh52g
+TRAVIS_STACK_NODE_ATTRIBUTES: /.node-attributes.yml
+TRAVIS_BUILD_NUMBER: 5
+TRAVIS_INFRA: gce
+TRAVIS_STACK_LANGUAGES: __sardonyx__ c c++ clojure cplusplus cpp default generic go groovy java node_js php pure_java python ruby scala
+TRAVIS_JOB_NAME:
+TRAVIS_BUILD_ID: 615025162
+TRAVIS_PULL_REQUEST: false
+TRAVIS_PULL_REQUEST_SLUG:
+TRAVIS_BUILD_DIR: /home/travis/build/agorapulse/ci
+TRAVIS_APP_HOST: build.travis-ci.org
+TRAVIS_JOB_WEB_URL: https://travis-ci.org/agorapulse/ci/jobs/615025163

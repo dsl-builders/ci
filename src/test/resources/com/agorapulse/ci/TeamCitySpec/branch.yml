@@ -1,0 +1,20 @@
+TEAMCITY_BUILD_PROPERTIES_FILE: /opt/buildagent/temp/buildTmp/teamcity.build4420993006726440982.properties
+TEAMCITY_BUILDCONF_NAME: Build
+TEAMCITY_ECS_AGENT_NAME: TestDrive-Agent-Ubuntu-16.04-ecs-teamcity-agent-prod-733
+TEAMCITY_GIT_PATH: /usr/bin/git
+TEAMCITY_ECS_SERVER_URL: https://teamcity.jetbrains.com
+TEAMCITY_PROJECT_NAME: Ci
+TEAMCITY_ECS_CLOUD_PROFILE_ID: awsecs-2
+TEAMCITY_ECS_INSTANCE_ID: teamcity-agent-prod-733
+TEAMCITY_ECS_SERVER_UUID: JetBrains-teamcity.jetbrains.com-42e5180b-64e4-4b46-ab8b-84c8c9e1891a
+TEAMCITY_ECS_IMAGE_ID: 0
+TEAMCITY_PROCESS_PARENT_FLOW_ID:
+TEAMCITY_PROCESS_FLOW_ID: 6799690268297
+TEAMCITY_VERSION: 2019.1.5 (build 66605)
+BUILD_VCS_NUMBER: 66e2a4882b47e61e4417cae311df5583a39b0911
+TEAMCITY_BUILD_INIT_PATH: /opt/buildagent/lib/serviceMessages.jar:/opt/buildagent/lib/runtime-util.jar:/opt/buildagent/plugins/gradle-runner/lib/gradle-runner-agent.jar:/opt/buildagent/plugins/gradle-runner/lib/gradle-runner-common.jar
+BUILD_NUMBER: 1
+TEAMCITY_AGENT_MEM_OPTS: -Xmx512m
+TEAMCITY_GRADLE_INCREMENTAL_MODE: false
+BUILD_VCS_NUMBER_TestDrive_Ci_HttpsGithubComMusketyrCiRefsHeadsMaster: 66e2a4882b47e61e4417cae311df5583a39b0911
+TEAMCITY_CAPTURE_ENV: "/opt/java/openjdk/jre/bin/java" -jar "/opt/buildagent/plugins/environment-fetcher/bin/env-fetcher.jar"

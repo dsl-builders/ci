@@ -44,14 +44,21 @@ task printEnvs() {
         final List<String> SKIP_WORDS = ['TOKEN', 'KEY', 'PASSWORD', 'SECRET']
 
         System.getenv().each {
-            if (SKIP_WORDS.every { word -> !it.key.contains(word) }) {
-                println "${it.key.padRight(30)}: $it.value"
+            String value = it.value
+            if (SKIP_WORDS.any { word -> it.key.contains(word) }) {
+                value = UUID.randomUUID().toString()
             }
+            println "${it.key.padRight(30)}: $value"
         }
 
         if (System.getenv('GITHUB_EVENT_PATH')) {
             println 'github event:'
             println new File(System.getenv('GITHUB_EVENT_PATH')).text
+        }
+
+        if (System.getenv('TEAMCITY_BUILD_PROPERTIES_FILE')) {
+            println 'teamcity properties:'
+            println new File(System.getenv('TEAMCITY_BUILD_PROPERTIES_FILE')).text
         }
     }
 }
