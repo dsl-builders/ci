@@ -41,6 +41,7 @@ jobs:
       # run build
       - run: gradle build
 workflows:
+  version: 2
   build:
     jobs:
       - build:
